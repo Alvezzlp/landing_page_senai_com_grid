@@ -224,6 +224,50 @@ address {
   font-size: 1.5rem;
 }
 
+/* ================== SEÇÃO CURSOS (CARROSSEL) ================== */
+.cursos {
+  background-color: #22161a;
+  padding: 4rem 0;
+}
+
+.titulo-secao {
+  color: var(--cor-primaria);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Sobre */
+.conteudo-cursos {
+  display: grid;
+  grid-template-areas: "texto-area imagem-area";
+  grid-template-columns: 1fr 45%;
+  gap: 3rem;
+  align-items: center;
+}
+
+.imagem-cursos {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  grid-area: imagem-area;
+}
+.texto-cursos {
+  grid-area: texto-area;
+}
+
+.texto-cursos h3 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.texto-cursos p {
+  color: var(--texto-cinza);
+  font-size: 1.2rem;
+}
+
+
+
 /* =============== SEÇÃO ENDEREÇO =============== */
 .endereco {
   padding: 4rem 0;
